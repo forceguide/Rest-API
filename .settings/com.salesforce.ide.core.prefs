@@ -1,0 +1,13 @@
+#Sun May 25 11:16:38 BST 2014
+eclipse.preferences.version=1
+endpointApiVersion=28.0
+endpointEnvironment=Production/Developer Edition
+endpointServer=www.salesforce.com
+httpsProtocol=true
+ideVersion=28.0
+keependpoint=false
+metadataFormatVersion=28.0
+namespacePrefix=
+packageName=unpackaged
+readTimeout=400
+username=topcoder.webservice@demo.com

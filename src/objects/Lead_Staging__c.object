@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <fields>
+        <fullName>Customer_Address_City__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Address City</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Address_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Address Country</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Address_Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Address Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Address_Region_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Address Region Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Address_Street__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Address Street</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Address_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Address Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Address_Url__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Address Url</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Address_apartment__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Address apartment</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Comments</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customer_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Email</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_First_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer First Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Phone1_phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Phone1 phone</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Phone1_preferredcontact__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Phone 1 preferredcontact</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Phone1_preferredtime__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Phone 1 preferredtime</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Phone1_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Phone 1 type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Phone2_phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Phone2 phone</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Phone2_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Phone 2 type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Phone_2_preferredcontact__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Phone 2 preferredcontact</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Phone_2_preferredtime__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Phone 2 preferredtime</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Primary_Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Primary Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Timeframe_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Timeframe Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Timeframe__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Timeframe</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_part__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer part</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Error_Message__c</fullName>
+        <externalId>false</externalId>
+        <label>Error Message</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Provider_Address_City__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Address City</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Address_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Address Country</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Address_Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Address Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Address_Region_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Address Region Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Address_Street__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Address Street</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Address_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Address Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Address_Url__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Address Url</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Address_apartment__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Address apartment</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Comments</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Provider_Contact_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Email</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Email</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_First_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider First Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Phone1_phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Phone1 phone</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Phone1_preferredcontact__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Phone 1 preferredcontact</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Phone1_preferredtime__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Phone 1 preferredtime</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Phone1_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Phone 1 type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Phone2_phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Phone2 phone</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Phone2_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Phone 2 type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Phone_2_preferredcontact__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Phone 2 preferredcontact</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Phone_2_preferredtime__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Phone 2 preferredtime</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Phone</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Primary_Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Primary Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Service__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Service</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Timeframe_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Timeframe Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Timeframe__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Timeframe</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider URL</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Provider_part__c</fullName>
+        <externalId>false</externalId>
+        <label>Provider part</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Raw_Data__c</fullName>
+        <externalId>false</externalId>
+        <label>Raw Data</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Request_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Date</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Source Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Source Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Amount_Currency__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Amount Currency</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Amount_Limit__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Amount Limit</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Amount_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Amount Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Amount</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Balance_Currency__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Balance Currency</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Balance_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Balance Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Balance__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Balance</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_BodyStyle__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Bodystyle</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Comments</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Condition__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Condition</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Currency__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Currency</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Delta__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Delta</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Doors__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Doors</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Exterior_Color__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Exterior Color</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_FInance_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle FInance Method</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Image_Alttext__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Image Alttext</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Image_Height__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Image Height</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Image_Url__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Image Url</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Image_Width__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Image Width</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Interest__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Interest</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Interior_Color__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Interior Color</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Make__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Make</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Manufacturer_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Manufacturer Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Method</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Model__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Model</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Odometer_Reading__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Odometer Reading</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Odometer_Units__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Odometer Units</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Option_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Option Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Option_Stock__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Option Stock</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Preference__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Preference</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Relative_To__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Relative To</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Source</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Status</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Stock__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Stock</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Transmission__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Transmission</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Trim__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Trim</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_VIN__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle VIN</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Weighting__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Weighting</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Year</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Address_City__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Address City</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Address_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Address Country</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Address_Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Address Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Address_Region_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Address Region Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Address_Street__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Address Street</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Address_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Address Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Address_Url__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Address Url</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Address_apartment__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Address apartment</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Comments</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Vendor_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Email</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_First_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor First Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Phone1_phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Phone1 phone</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Phone1_preferredcontact__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Phone 1 preferredcontact</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Phone1_preferredtime__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Phone 1 preferredtime</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Phone1_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Phone 1 type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Phone2_phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Phone2 phone</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Phone2_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Phone 2 type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Phone_2_preferredcontact__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Phone 2 preferredcontact</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Phone_2_preferredtime__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Phone 2 preferredtime</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Primary_Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Primary Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Source</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Timeframe_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Timeframe Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Timeframe__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Timeframe</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vendor_part__c</fullName>
+        <externalId>false</externalId>
+        <label>Vendor part</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>dupeProcessComplete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>dupeProcessComplete</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>hasError__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>hasError</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>is_Normalized__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>is Normalized</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>Lead Staging</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>LS-{0}</displayFormat>
+        <label>Lead Staging Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Lead Staging</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>
